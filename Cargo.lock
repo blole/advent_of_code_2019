@@ -4,3 +4,18 @@
 name = "day01"
 version = "0.1.0"
 
+[[package]]
+name = "day02"
+version = "0.1.0"
+
+[[package]]
+name = "day03"
+version = "0.1.0"
+dependencies = [
+ "utils 0.1.0",
+]
+
+[[package]]
+name = "utils"
+version = "0.1.0"
+
