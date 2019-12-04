@@ -40,7 +40,7 @@ impl VecWireSeg for Vec<WireSeg> {
         let mut list: Vec<Point> = Vec::new();
         let mut p = Point::zero();
         for seg in self {
-            for i in 0..seg.len {
+            for _ in 0..seg.len {
                 p += &seg.dir;
                 list.push(p);
             }
